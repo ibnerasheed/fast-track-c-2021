@@ -4,6 +4,6 @@
 int main()
 {
     printf("asalamoalykum\n");
-    printf("bye\n");
+    printf("allah hafiz\n");
     return 0;
 }

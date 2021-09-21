@@ -3,7 +3,6 @@
 
 int main()
 {
-    printf("asalamoalykum\n");
-    printf("allah hafiz\n");
+    printf("Hello world!\n");
     return 0;
 }

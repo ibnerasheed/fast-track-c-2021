@@ -28,5 +28,29 @@ int reverse_number (int number)
 
 }
 
+int occurance_of_digits (int number , int digit)
+{
+    int count = 0 , remainder = 0 ;
+    while ( number > 0)
+    {
+        remainder = number % 10 ;
+        if ( remainder == digit)
+            count++ ;
+        number = number / 10 ;
+    }
+    return count ;
 
+
+}
+
+void palindrome (int number )
+{
+    int result ;
+    result = reverse_number (number);
+    if ( result == number)
+        printf("It's palindrome \n");
+    else
+        printf("It's not a palindrome \n");
+    return 0;
+}
 

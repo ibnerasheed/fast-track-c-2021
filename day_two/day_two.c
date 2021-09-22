@@ -43,14 +43,14 @@ int occurance_of_digits (int number , int digit)
 
 }
 
-void palindrome (int number )
+int palindrome (int number )
 {
     int result ;
     result = reverse_number (number);
     if ( result == number)
-        printf("It's palindrome \n");
+        return 1;
     else
-        printf("It's not a palindrome \n");
-    return 0;
+        return 0;
+
 }
 

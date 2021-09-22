@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "day_two.h"
 
 int main()
 {
@@ -21,9 +22,14 @@ int main()
     result = occurance_of_digits ( number_occurance , digit_desired);
     printf("The occurance of %d is %d times \n", digit_desired , result);
 
-    int num_palindrome;
+    int num_palindrome , result_palindrome;
     printf("Enter the number to know if it is palindrome or not: \n");
     scanf("%d" , &num_palindrome);
+    result_palindrome = palindrome ( num_palindrome);
+    if (result_palindrome == 1)
+        printf("The number is palindrome. \n");
+    else
+        printf("The number is not a palindrome. \n");
 
 
     return 0;

@@ -32,7 +32,10 @@ int main()
     printf( " \n  Enter the year to know leap year or not \n");
     scanf ("%d", &year);
     result_leap = leap_year(year);
-    printf ("\n the year is %d" , result_leap);
+    if(result_leap)
+        printf("It is a leap year.\n");
+    else
+        printf("It is not a leap year. \n");
 
     float principle_c , rate_c , time_c , compound;
     printf("\nEnter principle,rate and time to calculate");

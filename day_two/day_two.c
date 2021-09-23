@@ -24,10 +24,10 @@ int reverse_number (int number)
         number = number / 10 ;
     }
 
+
     return reverse ;
 
 }
-
 int occurance_of_digits (int number , int digit)
 {
     int count = 0 , remainder = 0 ;
@@ -53,4 +53,15 @@ int palindrome (int number )
         return 0;
 
 }
+
+int prime_gen (int count);
+{
+
+}
+
+int armstrong (int number)
+{
+    int remainder , sum
+}
+
 

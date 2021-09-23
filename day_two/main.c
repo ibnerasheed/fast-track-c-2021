@@ -31,6 +31,15 @@ int main()
     else
         printf("The number is not a palindrome. \n");
 
+    int number_armstrong, result_arm;
+    printf("Enter three digit number to check if it's armstrong number or not : \n ");
+    scanf("%d", &number_armstrong) ;
+    result_arm = armstrong(number_armstrong);
+    if (result_arm == 1)
+        printf("The number is palindrome.\n");
+    else
+        printf("The number isn't armstrong number. \n");
+
 
     return 0;
 }

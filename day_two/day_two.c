@@ -54,14 +54,27 @@ int palindrome (int number )
 
 }
 
-int prime_gen (int count);
+/*int prime_gen (int count);
 {
 
-}
+}*/
 
 int armstrong (int number)
 {
-    int remainder , sum
+    int remainder , sum ,newNumber ;
+    newNumber = number;
+    while (number != 0)
+    {
+        remainder = newNumber % 10;
+        sum += remainder * remainder * remainder;
+        newNumber = newNumber / 10;
+
+    }
+    if (sum == number)
+        return 1;
+    else
+        return 0;
+
 }
 
 

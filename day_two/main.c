@@ -40,6 +40,6 @@ int main()
     else
         printf("The number isn't armstrong number. \n");
 
-
+    printf("End of program \n");
     return 0;
 }

@@ -61,9 +61,9 @@ int palindrome (int number )
 
 int armstrong (int number)
 {
-    int remainder , sum ,newNumber ;
+    int remainder, sum, newNumber;
     newNumber = number;
-    while (number != 0)
+    while (newNumber != 0)
     {
         remainder = newNumber % 10;
         sum += remainder * remainder * remainder;

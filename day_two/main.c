@@ -36,7 +36,7 @@ int main()
     scanf("%d", &number_armstrong) ;
     result_arm = armstrong(number_armstrong);
     if (result_arm == 1)
-        printf("The number is palindrome.\n");
+        printf("The number is armstrong number.\n");
     else
         printf("The number isn't armstrong number. \n");
 
